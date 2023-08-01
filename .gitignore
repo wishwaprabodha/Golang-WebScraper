@@ -1,0 +1,61 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+/_obj/
+/_test/
+/vendor/
+/Godeps/
+/vendor/
+/_vendor/
+/_tool/
+
+# Binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Testing files
+*.test
+
+# Output files
+*.out
+
+# Log files
+*.log
+
+# Dependency files
+*.lock
+Gopkg.lock
+go.sum
+
+# Compiled Go files
+*.test
+*.prof
+*.test
+*.cover
+/coverage.txt
+
+# Ignore Go modules cache
+*.cache
+
+# macOS folder attributes
+.DS_Store
+
+# Go-generated files
+doc.go
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+
+# Ignore binaries and executables (you may add exceptions here)
+bin/
