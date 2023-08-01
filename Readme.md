@@ -1,6 +1,6 @@
 # Web Page Analyzer
 
-This is a simple web application built in Go that allows users to analyze a web page by providing its URL. The application uses the Mux router for handling HTTP requests and the goquery library for parsing and querying the HTML of the web page.
+This is a simple web application built in Go that allows users to analyze a web page by providing its URL. The application uses the Mux router for handling HTTP requests and the goquery library for parsing and querying the HTML of the web page. For the efficiency, Concurrency is being used and Clean Architecture Pattern is applied  
 
 ## Installation
 
